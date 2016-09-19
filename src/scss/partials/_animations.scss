@@ -1,0 +1,10 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/_bourbon';
+//Overlay hover animations
+@keyframes swipe-down {
+	0% {
+		@include transform(translateY(-30%));
+	}
+	100% {
+		@include transform(translateY(0));
+	}
+}
